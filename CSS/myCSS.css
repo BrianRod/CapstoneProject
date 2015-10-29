@@ -1,0 +1,63 @@
+@font-face
+{
+    font-family: Orbitron;
+    src: /CSS/Orbitron-Black.ttf;
+}
+
+body {
+		margin-top: 75px;
+	background-image: url("/img/nightlife-hd-img.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-size: auto;
+}
+
+div.jumbotron
+{
+  background:rgba(255,255,255,0.9);
+}
+
+#uber {
+    background-image: url('/img/UBER_API_Button_2x_Grey_7px_round.png');
+    background-size: cover;
+    width: 280px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+#time {
+    text-align: right;
+    margin-top: 2%;
+    padding-top: 7px;
+    padding-right: 14px;
+}
+
+#price {
+    text-align: right;
+    margin-top: 2%;
+    padding-top: 7px;
+    padding-right: 14px;
+}
+
+#request {
+	font-size: 15px;
+    text-align: right;
+    margin-top: 2%;
+    padding-top: 7px;
+    padding-right: 14px;
+}
+
+.navbuttons
+{
+	background-color: #000000;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.navbar-inverse
+{
+	
+}

@@ -1,0 +1,35 @@
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/angularjs-google-places/src/angularjs-google-places.js"></script>
+<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/myCSS.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Orbitron:bold">
+
+<html ng-app='app'>
+<head>
+	<meta charset="UTF-8">
+	<title>NightLife</title>
+</head>
+<header class="navbar navbar-default navbar-fixed-top bs-docs-nav" role="banner">  
+	<div class="navbar-header">
+		<div>
+			<img class="logo"src="/img/logo.png">
+		</div>
+		<ul class="nav nav-pills">
+			<li class="navbuttons" role="presentation" ui-sref-active="active" class=""><a ui-sref="bars">NightLife in SLC<span class="glyphicon glyphicon-glass"></span></a></li>
+		</ul>
+	</div>
+</header>
+
+<body class="container">
+	<div>
+		<div ui-view></div>
+	</div>
+
+</body>
+<script src="app.js"></script>
+<script src="services.js"></script>
+<script src="/bars/barsCtrl.js"></script>
+<script src="/home/homeCtrl.js"></script>
+</html>
